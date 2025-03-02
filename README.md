@@ -1,6 +1,10 @@
 # Pathfinding Algorithm Visualizer
 
-A sophisticated web-based tool for visualizing various pathfinding algorithms in real-time. Built with vanilla JavaScript and modern web technologies, this visualizer helps users understand how different pathfinding algorithms work through interactive visualization.
+A web-based tool for visualizing various pathfinding algorithms in real-time. Built with vanilla JavaScript and modern web technologies, this visualizer helps users understand how different pathfinding algorithms work through interactive visualization.
+
+## Access
+
+The website can be accessed at: https://pathfinding-visualizer-algorithm.vercel.app/
 
 ## Features
 
@@ -27,17 +31,6 @@ A sophisticated web-based tool for visualizing various pathfinding algorithms in
 - Clear board functionality
 - Algorithm information panel with detailed explanations
 - Responsive black and white design
-
-## Technical Implementation
-
-### Project Structure
-```
-pathfinding-visualizer/
-├── index.html          # Main HTML structure
-├── style.css          # Styling and layout
-├── main.js           # Core algorithm implementations
-└── README.md         # Documentation
-```
 
 ### Core Components
 
@@ -131,8 +124,6 @@ pathfinding-visualizer/
 - Clean, minimalist UI
 - Educational visualization approach
 
-*Note: No external libraries or frameworks were used, showcasing pure vanilla JavaScript capabilities.*
-
 ## Getting Started
 
 ### Prerequisites
@@ -185,12 +176,6 @@ xdg-open index.html
 - Grid size optimized for performance and visibility
 - Efficient data structures (Sets and Maps) for tracking visited nodes
 - Asynchronous execution prevents UI blocking
-
-## Browser Support
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
