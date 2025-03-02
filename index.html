@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pathfinding Visualizer</h1>
+        </div>
+        <div class="content">
+            <div class="left-panel">
+                <div class="controls">
+                    <select id="algorithm">
+                        <option value="dijkstra">Dijkstra's Algorithm</option>
+                        <option value="astar">A* Search</option>
+                        <option value="greedy">Greedy Best-First Search</option>
+                        <option value="bidirectional">Bidirectional Search</option>
+                        <option value="jps">Jump Point Search</option>
+                        <option value="ida">IDA* Search</option>
+                        <option value="bellman">Bellman-Ford Algorithm</option>
+                        <option value="floyd">Floyd-Warshall Algorithm</option>
+                        <option value="random">Random Walk</option>
+                        <option value="hill">Hill Climbing</option>
+                        <option value="beam">Beam Search</option>
+                        <option value="iddfs">Iterative Deepening DFS</option>
+                        <option value="swarm">Swarm Algorithm</option>
+                        <option value="bfs">Breadth First Search</option>
+                        <option value="dfs">Depth First Search</option>
+                    </select>
+                    <button id="visualize">Visualize</button>
+                    <button id="clear">Clear Board</button>
+                </div>
+                <div id="grid"></div>
+            </div>
+            <div class="right-panel">
+                <div class="algorithm-info">
+                    <h2 id="algorithm-title">Algorithm Details</h2>
+                    <div id="algorithm-description">
+                        <p>Select an algorithm to see details.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
